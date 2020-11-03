@@ -1,0 +1,40 @@
+.view-item__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 32px;
+  color:  #f21313;
+  padding: 60px 0px 10px 75px;
+
+  .view-item__image {
+    margin-right: 16px;
+  }
+
+  .view-item__text {
+    font-size: 24px;
+    color:  #f21313;
+    align-self: center;
+
+    max-width: 65%;
+  }
+}
+
+.view-item__stats {
+  flex: 1;
+  justify-content: space-evenly;
+  font-size: 24px;
+  color:  #f21313;
+  padding: 0px 14px 0px 14px;
+}
+
+.view-item__button-container {
+  justify-content: flex-end;
+  flex: 1;
+  padding: 0px 42px 0px 42px;
+
+  .view-item__button {
+    justify-content: space-around;
+    padding-bottom: 50px;
+    font-size: 20px;
+  }
+}

@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+<body style="background-color:black">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![WitchFall Logo](docs/assets/witchfall-a.png)
 
-## Available Scripts
+# <span style="color:orange">WITCHFALL RPG - A STUDENT FINAL PROJECT</span>
 
-In the project directory, you can run:
 
-### `npm start`
+ ![Halloween Kitties](docs/assets/cat4.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-green.svg?style=flat-square)](#contributors)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<span style="color:orange">JUST IN TIME FOR HALLOWEEN!</span> ![Halloween Kitties](docs/assets/evilpumpkin__by_clairebearer.gif)<br>
+WitchFall lets you follow the adventures of Addie, the Friendly Witch.  In this Beta version, explore the town of Pumpkin Falls, where it is always October and the air smells like pumpkin spice!  This is a Halloween-themed, friendly game that our team plans to continue developing as part of our portfolio.
 
-### `npm test`
+Based on the Open-Source framework of [React RPG](https://react-rpg.com/) by [Andrew Steinheiser](https://github.com/ASteinheiser/react-rpg.com), WitchFall is a"Work-In-Progress" RPG made with React and Redux.  The game is a turn-based, dungeon crawler that is slowly being changed to a quest system. Currently you can walk through the village in level 1, battling spiders and checking out the adorable environment.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Play WitchFall Here!](https://witchfall.herokuapp.com/)   ![Halloween Kitties](docs/assets/darkmoon3636.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requirements
+-  ReactJS  ![](docs/assets/check1.png)
+-  Node & Express  ![](docs/assets/check1.png)
+-  MongoDB  ![](docs/assets/check1.png)
+-  Get & Post Routes  ![](docs/assets/check1.png)
+-  Deployed to Heroku  ![](docs/assets/check1.png)
+-  Two New Libraries / Technologies  ![](docs/assets/check1.png)<br>
+    * Redux, Lodash, Sass & more!
+-  User Authentication - Firebase Auth  ![](docs/assets/check1.png)
+-  MVC Folder Structure  ![](docs/assets/check1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## How To Play
+<span style="color:lawngreen">Addie starts off with a staff that she can use to get rid of the pesky spiders. The space-bar or enter-key will cast a spell at the spiders.</span>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<span style="color:lawngreen">Tree stumps can hold gold, experience and even special items! Walk into the stump to trigger this. The look of the tree stump will change after you've emptied it.
+</span>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<span style="color:lawngreen">In the settings folder, <ins>IF</ins> you have logged in with Google, you can 'Save Score' to add your name and level to the Leaderboard.
+</span>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![WitchFall Intro](docs/assets/crouching_kitty.gif)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Opening screens:
+![WitchFall Intro](docs/assets/witchfall1.png) &nbsp; ![WitchFall Game Screen 1](docs/assets/witchfall2.png)
 
-## Learn More
+### Game Controls:
+![WitchFall Gameplay](docs/assets/witchfall3.png) 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Game Play - You can see that one stump has been emptied, the other still has loot. Also, as we build out the game, you will be able to walk into the buildings to explore other levels:
+![Tree Stumps are Treasure Chests](docs/assets/witchfall7.png) &nbsp; ![Whack Spiders With Your Staff!](docs/assets/witchfall8.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### In the settings screen, you can turn the music on and off, and you can restart the game. You can also save your level to see if you made it onto the Leaderboard (must log into Google first):
+![Settings 1](docs/assets/witchfall11.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## How To Play Locally
+Clone and fork the repo to your system.
 
-### Analyzing the Bundle Size
+CD into the main game folder & install all the NPM:
+```javascript
+npm install
+```
+Then CD into the client folder and do it again:
+```javascript
+npm install
+```
+Then you can run it from the client folder:
+```javascript
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br />
 
-### Making a Progressive Web App
+### Read more about React RPG
+- [Medium: Making an RPG with React + Redux - written by the maker of the original game code!](https://medium.com/@andrewsteinheiser/making-an-rpg-with-react-redux-dcfffdb06797)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## [View Roadmap](docs/ROADMAP.md) (IN PROGRESS)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr>
+<td align="center"><a href="https://github.com/Lucky-Cat-Gamers"><img src="https://avatars0.githubusercontent.com/u/70782142?s=200&v=4" width="100px;" alt="Lucky Cat Gamers"/><br /><sub><b>Lucky Cat Gamers</b></sub></a><br /></td>
 
-### Deployment
+<td align="center"><a href="https://github.com/GitJoeCode"><img src="https://avatars3.githubusercontent.com/u/62609416?s=460&v=4" width="100px;" alt="Joe Shapiro - gitjoecode"/><br /><sub><b>Joe Shapiro</b></sub></a><br /></td>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<td align="center"><a href="https://github.com/loraxgirl"><img src="https://avatars0.githubusercontent.com/u/61996748?s=460&u=2b82984a3a9b519d9182b5d53c88e1b40aea600c&v=4" width="100px;" alt="Krista Clarke - loraxgirl"/><br /><sub><b>Krista Clarke</b></sub></a><br /></td>
 
-### `npm run build` fails to minify
+<td align="center"><a href="https://github.com/duskconductor"><img src="https://avatars0.githubusercontent.com/u/57245458?s=460&u=eb5d3db8192cc8262b44ce4a48951e582a93ec3c&v=4" width="100px;" alt="Mark Fullton"/><br /><sub><b>Mark Fullton</b></sub></a><br /></td>
+</tr></table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+</body>
