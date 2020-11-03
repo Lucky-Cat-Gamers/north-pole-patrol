@@ -45,11 +45,8 @@ const GameMenus = ({ appState, dialog }) => {
 
         <div className='flex-column2'>
           <GameMusic sideMenu={sideMenu} /> &nbsp;
-          <GameSettings /> &nbsp;
-          <LeaderBoard />
+          <GameSettings />
         </div>
-
-        <GoogleLogin />
       </div>
     </div>
   );

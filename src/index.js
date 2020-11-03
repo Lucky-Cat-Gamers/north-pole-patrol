@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM             from 'react-dom';
-import * as firebase        from 'firebase/app';
-import                           'firebase/auth';
-import                           'firebase/firestore';
-import * as firebaseui      from 'firebaseui';
+// import * as firebase        from 'firebase/app';
+// import                           'firebase/auth';
+// import                           'firebase/firestore';
+// import * as firebaseui      from 'firebaseui';
 import { Provider }         from 'react-redux';
 import { PersistGate }      from 'redux-persist/integration/react';
 import ReactGA              from 'react-ga';
